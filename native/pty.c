@@ -1,5 +1,5 @@
 // Buddy's pseudo-terminal: opens a pty, starts a program on it, resizes it, waits for it.
-// Called from app.buddy.assistant.Pty. Build: native/build.sh → app/src/main/jniLibs/arm64-v8a/libbuddypty.so
+// Called from app.johndluciasz.assistant.Pty. Build: native/build.sh → app/src/main/jniLibs/arm64-v8a/libbuddypty.so
 #include <jni.h>
 #include <errno.h>
 #include <fcntl.h>

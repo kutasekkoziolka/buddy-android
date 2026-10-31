@@ -76,7 +76,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
-          packageName: app.buddy.assistant
+          packageName: app.johndluciasz.assistant
           releaseFiles: app/build/outputs/bundle/playRelease/*.aab
           track: alpha
           status: completed

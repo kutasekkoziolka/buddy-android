@@ -1,19 +1,16 @@
-# build output
+# Build artifacts
+*.apk
+*.dex
+buddy_dec/
 build/
-app/build/
-dist/
-.gradle/
-.kotlin/
+out/
+*.idsig
 
-# local machine config
-local.properties
+# IDE
 .idea/
 *.iml
+.gradle/
 
-# signing keys — never commit
-*.jks
-*.keystore
-.buddy-keys/
-
-# design exports (kept locally)
-design/
+# OS
+.DS_Store
+Thumbs.db

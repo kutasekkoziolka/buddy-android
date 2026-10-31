@@ -1,4 +1,4 @@
-package app.buddy.assistant;
+package app.johndluciasz.assistant;
 
 /** The GitHub build: everything, including self-updates and APK installs. */
 final class Flavor {

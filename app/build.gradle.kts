@@ -14,11 +14,11 @@ android {
             useLegacyPackaging = true
         }
     }
-    namespace = "app.buddy.assistant"
+    namespace = "app.johndluciasz.assistant"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "app.buddy.assistant"
+        applicationId = "app.johndluciasz.assistant"
         minSdk = 30
         targetSdk = 36
         versionCode = appVersionCode
